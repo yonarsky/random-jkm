@@ -1,4 +1,4 @@
-const result = [];
+/*const result = [];
 
 const losowanie = function() {
      if(result.length === 6) return;
@@ -16,6 +16,12 @@ const losowanie = function() {
      result.push(wynikLos);
 }
 const button = document.querySelector("button");
-button.addEventListener("click", losowanie);
+button.addEventListener("click", losowanie);*/
 
+const kol1 = ['Ja chcę powiedzieć jedną rzecz:', 'Trzeba powiedzieć jasno:', 'Jak powiedział wybitny krakowianin Stanisław Lem,'];
+const kol2 = ['przedstawiciele czerwonej hołoty', 'ci wszyscy (tfu) geje', 'funkconariusze reżimowej telewizji'];
+const kol3 = ['zupełnie bezkarnie', 'całkowicie bezczelnie', 'o poglądach na lewo od komunizmu'];
+const kol4 = ['nawolują do podniesienia podatków', 'próbują wyrzucić kierowców z miast', 'próbują skłócić Polskę z Rosją'];
+const kol5 = ['bo dzięki temu mogą kraść', 'bo dostają za to pieniądze', 'bo tak się uczy w państwowej szkole'];
+const kol6 = ['przez kolejne kadencje', 'o czym się nie mówi', 'i właśnie dlatego Europa umiera'];
 
