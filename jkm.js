@@ -25,11 +25,12 @@ const tab1 = [['Ja chcę powiedzieć jedną rzecz:', 'Trzeba powiedzieć jasno:'
 ['bo dzięki temu mogą kraść', 'bo dostają za to pieniądze', 'bo tak się uczy w państwowej szkole'],
 ['przez kolejne kadencje', 'o czym się nie mówi', 'i właśnie dlatego Europa umiera']];
 const losowanie = function() {
+    document.getElementById("blok").innerHTML = "";
      for (let i = 0; i < 6; i++) {
           const wynikLos = Math.floor(Math.random() * 3);
           const div = document.createElement("div");
           div.textContent = tab1[i][wynikLos];
-          document.body.appendChild(div);
+          document.getElementById("blok").appendChild(div);
       }
 }
 const button = document.querySelector("button");
