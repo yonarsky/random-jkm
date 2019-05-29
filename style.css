@@ -34,4 +34,10 @@ div {
     font-size: 30px;
     font-weight: bold;
     font-family: Lato, monospace, roboto, arial;
+    width: 40%;
+}
+@media only screen and (max-width: 1181px) {
+    .btn.btn-primary.btn-lg.btn-block {
+        width: auto;
+    }
 }
