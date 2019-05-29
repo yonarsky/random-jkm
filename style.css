@@ -6,8 +6,8 @@
 button {
     margin:  20px auto;
     padding: 50 px;
-    background-color: crimson;
-    color: white;
+    background-color: #1a237e;
+    color: #ffb300;
     border: none;
     display: block;
     width: 600px;
@@ -16,7 +16,7 @@ button {
     font-weight: bold;
 }
 button:hover {
-    background-color: cornflowerblue;
+    background-color: #000051;
     cursor: pointer;
 }
 div {
