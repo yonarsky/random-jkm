@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato, monospace, roboto, arial;
+}
+button {
+    margin:  20px auto;
+    padding: 50 px;
+    background-color: salmon;
+    color: white;
+    border: none;
+    display: block;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+#blok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.kula {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: crimson;
+    font-size: 53px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    line-height: 80px;
+
+}
