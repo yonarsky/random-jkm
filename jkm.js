@@ -15,3 +15,4 @@ const losowanie = function() {
 }
 const button = document.querySelector("button");
 button.addEventListener("click", losowanie);
+window.onload = losowanie;
